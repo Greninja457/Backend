@@ -1,9 +1,10 @@
 services:
   - type: web
-    name: flask-backend
+    name: image-processing-api
     env: python
+    plan: free
     buildCommand: ""
     startCommand: gunicorn backend:app
     envVars:
-      - key: PYTHON_VERSION
-        value: 3.11
+      - key: FLASK_ENV
+        value: production
