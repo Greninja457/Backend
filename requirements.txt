@@ -1,6 +1,7 @@
-Flask
+flask
 flask-cors
-numpy
 opencv-python
-Pillow
+numpy
+pillow
+requests
 gunicorn
